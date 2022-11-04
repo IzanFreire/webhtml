@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="parrafos.html"><li>PÁRRAFOS</li></a>
+                    <a href="enlaces.html"><li>ENLACES</li></a>
+                    <a href="listas.html"><li>LISTAS</li></a>
+                    <a href="tablas.html"><li>TABLAS</li></a>
+                    <a href="formularios.html"><li>FORMULARIOS</li></a>
+                    <a href="multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="formhtml5.html"><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="tablas">
+                    <h1 class="txt-center">Práctica de Tablas</h1>
+                    <h2>Tabla de encabezados de fila</h2>
+                    <table border="1" class="te">
+                        <tr>
+                            <th>Curso</th>
+                            <th>Horas</th>
+                            <th>Horario</th>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>30</td>
+                            <td>9:00 - 15:00</td>
+                        </tr>
+                        <tr>
+                            <td>HTML</td>
+                            <td>40</td>
+                            <td>9:00 - 15:00</td>
+                        </tr>
+                        <tr>
+                            <td>MATEMATICAS</td>
+                            <td>30</td>
+                            <td>9:00 - 15:00</td>
+                        </tr>
+                        <tr>
+                            <td>AWEB</td>
+                            <td>60</td>
+                            <td>9:00 - 15:00</td>
+                        </tr>
+                        <tr>
+                            <td>BASE DE DATOS</td>
+                            <td>30</td>
+                            <td>9:00 - 15:00</td>
+                        </tr>
+                        <tr>
+                            <td>LENGUA</td>
+                            <td>40</td>
+                            <td>9:00 - 15:00</td>
+                        </tr>
+                    </table>
+                    <h2>Tabla de encabezado de Columna</h2>
+                    <table border="1" class="te">
+                        <tr>
+                            <th>España</th>
+                            <td>Madrid</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Italia</th>
+                            <td>Roma</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Francia</th>
+                            <td>París</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Alemania</th>
+                            <td>Berlín</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Suiza</th>
+                            <td>Berna</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Islandia</th>
+                            <td>Reikiavik</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Australia</th>
+                            <td>Canberra</td>
+                            <td>Oceanía</td>
+                        </tr>
+                    </table>
+                    <h2>Tabla con combinaciones de celdas</h2>
+                    <table border="1" class="centered">
+                        <tr>
+                            <th>España</th>
+                            <td>Madrid</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Italia</th>
+                            <td>Roma</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Francia</th>
+                            <td colspan="2">Paris</td>
+                        </tr>
+                        <tr>
+                            <th>Alemania</th>
+                            <td>Berlín</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Suiza</th>
+                            <td>Berna</td>
+                            <td>Europa</td>
+                        </tr>
+                    </table>
+                    <h2>Tabla striped</h2>
+                    <table border="1" class="striped">
+                        <tr>
+                            <th>España</th>
+                            <td>Madrid</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Italia</th>
+                            <td>Roma</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Francia</th>
+                            <td>Paris</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Alemania</th>
+                            <td>Berlín</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Suiza</th>
+                            <td>Berna</td>
+                            <td>Europa</td>
+                        </tr>
+                        <tr>
+                            <th>Argelia</th>
+                            <td>Argel</td>
+                            <td>Africa</td>
+                        </tr>
+                        <tr>
+                            <th>Argentina</th>
+                            <td>Buenos Aires</td>
+                            <td>América</td>
+                        </tr>
+                    </table>
+                    <h2>Horario DAW</h2>
+                    <table border="1" class="centered">
+                        <tr>
+                            <th colspan="6" class="titulo">S1DAW</th>
+                        </tr>
+                        <tr class="titulo">
+                            <th>/-\</th>
+                            <td>Lunes</td>
+                            <td>Martes</td>
+                            <td>Miercoles</td>
+                            <td>Jueves</td>
+                            <td>Viernes</td>
+                        </tr>
+                        <tr>
+                            <th class="titulo">8:15<br>9:10</th>
+                            <td rowspan="2" class="BDD">BDD<br>Bern. Be, Cr<br>(1 B-301)</td>
+                            <td class="FOL">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
+                            <td class="ENDE">ENDE<br>Polo Or, Ed<br>(1 B-301)</td>
+                            <td rowspan="2" class="SISI">SISI<br>Álva. Gi, An<br>(1 B-301)</td>
+                            <td rowspan="2" class="SISI">SISI<br>Álva. Gi, An<br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th class="titulo">9:10<br>10:05</th>
+                            <td class="ENDE">ENDE<br>Polo Or, Ed<br>(1 B-301)</td>
+                            <td class="FOL">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
+                            
+                            
+                        </tr>
+                        <tr>
+                            <th class="titulo">10:05<br>11:00</th>
+                            <td class="SISI">SISI<br>Álva. Gi, An<br>(1 B-301)</td>
+                            <td class="PROG">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="PROG">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="PROG">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="ING">ING<br>Corr. Pi, JoMa<br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th class="titulo"></th>
+                            <td colspan="5" class="titulo">RECREO</td>
+                        </tr>
+                        <tr>
+                            <th class="titulo">11:30<br>12:25</th>
+                            <td class="SISI">SISI<br>Álva. Gi, An<br>(1 B-301)</td>
+                            <td class="PROG">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="PROG">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="PROG">PROG<br>Mart Ca, JoJa<br>(1 B-301)</td>
+                            <td class="ENDE">ENDE<br>Polo Or, Ed<br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th class="titulo">12:25<br>13:20</th>
+                            <td rowspan="2" class="LMSG">LMSG<br>Puli. Mo, FrJo<br>(1 B-301)</td>
+                            <td rowspan="2" class="BDD">BDD<br>Bern. Be, Cr<br>(1 B-301)</td>
+                            <td rowspan="2" class="BDD">BDD<br>Bern. Be, Cr<br>(1 B-301)</td>
+                            <td class="FOL">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
+                            <td rowspan="2" class="LMSG">LMSG<br>Puli. Mo, FrJo<br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th class="titulo">13:20<br>14:15</th>
+                            <td class="ING">ING<br>Corr. Pi, JoMa<br>(1 B-301)</td>
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Izan Freire - S1DAW</footer>
+    </div>
+</body>
+</html>

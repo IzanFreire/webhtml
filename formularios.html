@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="parrafos.html"><li>PÁRRAFOS</li></a>
+                    <a href="enlaces.html"><li>ENLACES</li></a>
+                    <a href="listas.html"><li>LISTAS</li></a>
+                    <a href="tablas.html"><li>TABLAS</li></a>
+                    <a href="formularios.html"><li>FORMULARIOS</li></a>
+                    <a href="multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="formhtml5.html"><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="formularios">
+                    <h1 class="txt-center">FORMULARIOS</h1>
+                    <h2>Form login</h2>
+                    <form action="pagina.html" method="get">
+                        User: <input type="text" name="user"/><br/><br/>
+                        Password: <input type="password" name="contraseña"/><br/><br/>
+                        <input type="submit" value="Aceptar"/>
+                   </form>
+                   <h2>Form registro:</h2>
+                   <form action="pagina.html" class="registro" method="post">
+                        <fieldset>
+                            <legend>Register</legend>
+                                <input type="text" name="user" placeholder="User"/><br/><br/>
+                                Password: <input type="password" name="contraseña"/><br/><br/>
+                                <textarea name="Comentario" id="" cols="30" rows="3"></textarea><br/><br/>
+                                Aficiones:<br/>
+                                <label class="custom-control custom-checkbox">
+                                <input type="checkbox" name="aficiones" value="Futbol" id="">Futbol<br />
+                                <input type="checkbox" name="aficiones" value="Padel" id="">Padel<br />
+                                <input type="checkbox" name="aficiones" value="Coches " id="">Coches<br />
+                                <input type="checkbox" name="aficiones" value="Musica" id="">Musica<br />
+                                <br/><br/>
+                                Estado Civil:<br/>
+                                <input type="radio" name="estado" value="Casado" id="">Casado/a<br />
+                                <input type="radio" name="estado" value="Soltero" id="">Soltero/a<br />
+                                <input type="radio" name="estado" value="Divorciado" id="">Divorciado/a<br />
+                                <input type="radio" name="estado" value="Viudo" id="">Viudo/a<br />
+
+                                <br />
+                                Años:
+                                <select name="año">
+                                    <option value="1">2022</option>
+                                    <option value="2">2021</option>
+                                    <option value="3">2020</option>
+                                    <option value="4">2019</option>
+                                    <option value="5">2018</option>
+                                    <option value="6">2017</option>
+                                    <option value="7">2016</option>
+                                    <option value="8">2015</option>
+                                    <option value="9">2014</option>
+                                    <option value="10">2013</option>
+                                    <option value="11">2012</option>
+                                    <option value="12">2011</option>
+                                </select>
+                                <br />
+                                <br />
+                                Año Múltiple:
+                                <select name="año" multiple>
+                                    <option value="1">2022</option>
+                                    <option value="2">2021</option>
+                                    <option value="3">2020</option>
+                                    <option value="4">2019</option>
+                                    <option value="5">2018</option>
+                                    <option value="6">2017</option>
+                                    <option value="7">2016</option>
+                                    <option value="8">2015</option>
+                                    <option value="9">2014</option>
+                                    <option value="10">2013</option>
+                                    <option value="11">2012</option>
+                                    <option value="12">2011</option>
+                                </select>
+                                <br>
+                                <p class="txt-center"><input type="submit" value="Aceptar" /></p>
+                        </fieldset>
+                   </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Izan Freire - S1DAW</footer>
+    </div>
+</body>
+</html>
