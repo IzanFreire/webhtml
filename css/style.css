@@ -156,3 +156,17 @@ table.striped tr:nth-child(even) {
 form.registro {
     width: 60%;
 }
+#formhtml5 form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(160, 157, 157);
+    padding: 20px;
+}
+#formhtml5 form fieldset legend {
+    background-color: rgb(15, 0, 230);
+    color: rgb(208, 230, 8);
+}
+#idrange{
+    width: 70px;
+    text-align: center;
+}
