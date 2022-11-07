@@ -161,10 +161,14 @@ form.registro {
     margin: 0 auto;
     background-color: rgb(160, 157, 157);
     padding: 20px;
+    border: solid 10px rgb(83, 48, 48);
+
 }
 #formhtml5 form fieldset legend {
     background-color: rgb(15, 0, 230);
     color: rgb(208, 230, 8);
+    border: solid 15px rgb(121, 30, 101);
+    font-weight: bold;
 }
 #idrange{
     width: 70px;
