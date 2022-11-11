@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: azure;
+    background-image: url(/img/fondo.jpg);
 }
 a {
     text-decoration: none;
@@ -156,12 +156,16 @@ table.striped tr:nth-child(even) {
 form.registro {
     width: 60%;
 }
+.redondo {
+    border-radius:55px;
+}
 #formhtml5 form {
     width: 50%;
     margin: 0 auto;
     background-color: rgb(160, 157, 157);
     padding: 20px;
     border: solid 10px rgb(83, 48, 48);
+    border-radius: 20px;
 
 }
 #formhtml5 form fieldset legend {
@@ -169,6 +173,7 @@ form.registro {
     color: rgb(208, 230, 8);
     border: solid 15px rgb(121, 30, 101);
     font-weight: bold;
+    border-radius: 20px;
 }
 #idrange{
     width: 70px;
