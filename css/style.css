@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url(/img/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
 }
 a {
     text-decoration: none;
@@ -11,7 +11,7 @@ a {
     background-color: rgb(21, 185, 197);
 }
 header {
-    background-image: url(/img/fotocabecera.jpg);
+    background-image: url(../img/fotocabecera.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
