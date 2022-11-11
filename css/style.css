@@ -109,6 +109,11 @@ dt {
     font-size: 30px;
     font-weight: bold;
 }
+.centrotabla {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 table.te th {
     background-color: rgb(10, 117, 19);
     color: rgb(0, 0, 0);
@@ -155,9 +160,15 @@ table.striped tr:nth-child(even) {
 }
 form.registro {
     width: 60%;
+    background-color: rgb(218, 23, 23);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: dotted ;
 }
 .redondo {
     border-radius:55px;
+
 }
 #formhtml5 form {
     width: 50%;
